@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div class="container">
+        <div class="dados">
+            <div class="hoje text-center">
+                <h3>Hoje</h3>
+                <h1>
+                    <i id="icone" class="bi bi-cloud"></i> <span id="temperatura">25ºC</span>
+                </h1>
+                <form class="row" id="formulario">
+                    <div class="col-7">
+                        <input type="text" id="cidade" class="form-control ms-3" placeholder="CEP">
+                    </div>
+                    <div class="col">
+                        <button type="button" id="btnPesquisar" class="btn btn-primary"><i class="bi bi-search"></i> Buscar</button>
+                    </div>
+                </form>
+                
+                
+                <p id="conjunto-local"><span id="local">Americana, São Paulo - Brasil</span><br><button type="button" id="btnEditar" class="btn ">alterar cidade</button></p>
+                <p id="data">14/02/2025</p>
+            </div>
+            <div class="row m-0 text-center proximos-dias">
+                <div class="col">
+                    <h5 id="dia1">15/02/2025</h5>
+                    <strong class="proxima-temperatura" id="temperatura-dia1">25ºC</strong>
+                </div>
+                <div class="col">
+                    <h5 id="dia2">16/02/2025</h5>
+                    <strong class="proxima-temperatura" id="temperatura-dia2">25ºC</strong>
+                </div>
+                <div class="col">
+                    <h5 id="dia3">17/02/2025</h5>
+                    <strong class="proxima-temperatura" id="temperatura-dia3">25ºC</strong>
+                </div>
+            </div>
+        </div>
+        <div class="frase row">
+            <div class="col">
+                <h3>Random Text</h3>
+                <p>Improve him believe opinion offered met and
+                    end cheered forbade. Friendly as stronger
+                    speedily by recurred. Son interest wandered
+                    sir addition end say. Manners beloved affixed
+                    picture men ask.</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

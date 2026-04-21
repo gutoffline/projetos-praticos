@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-size: cover;
+}
+
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.dados{
+    margin-top: 53px;
+    margin-bottom: 50px;
+}
+
+.hoje, .proximos-dias{
+    border-radius: 35px;
+    padding-top: 25px;
+    padding-bottom: 10px
+}
+
+.hoje h3{
+    font-weight: medium;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.hoje h1{
+    font-size: 70px;
+    line-height: 106px;
+    font-weight: medium;
+}
+
+.hoje h4{
+    font-weight: semibold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.hoje p{
+    font-size: 15px;
+    font-weight: medium;
+    line-height: 23px;
+    padding-left: 30px;
+}
+
+.proximos-dias{
+    margin-top: 35px!important;
+    border-radius: 25px;
+    height: 149px;
+    align-items: center;
+}
+
+.proximos-dias h5{
+    font-size: 15px;
+}
+
+.proximos-dias .proxima-temperatura{
+    font-size: 30px;
+}
+
+.frase{
+    color: white;
+}
+
+/*cores*/
+.bg-nublado{
+    color: #CAD7DF;
+    background-image: url(images/bg-nublado.png);
+}
+
+
+.bg-nublado .hoje, 
+.bg-nublado .proximos-dias{
+    background-color: #91B4C6;
+}
+
+.bg-sol{
+    color: #EFAA82;
+    background-image: url(images/bg-sol.png);
+}
+
+
+.bg-sol .hoje{
+    background-color: #FAE2BD;
+}
+.bg-sol .proximos-dias{
+    background: rgb(250,226,189);
+    background: radial-gradient(circle, rgba(250,226,189,0.7) 0%, rgba(250,226,189,0.3) 100%);
+    color: white;
+}
+
+
+.bg-chuva{
+    color: #C9E8E0;
+    background-image: url(images/bg-chuva.png);
+}
+
+.bg-chuva .hoje{
+    background-color: #40666A;
+}
+.bg-chuva .proximos-dias{
+    background: rgb(64,102,106);
+background: radial-gradient(circle, rgba(64,102,106,0.7) 0%, rgba(64,102,106,0.3) 100%);
+color: white;
+    
+}
+
+.formulario{
+    display: none;
+}
+
+#btnEditar{
+    font-size: 12px;
+    color: #575757;
+}
