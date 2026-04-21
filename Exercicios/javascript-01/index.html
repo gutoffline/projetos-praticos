@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">Traço Eterno</h1>
+            <h2 class="subtitulo">Tatoo Studio</h2>
+            <div class="botoes">
+                <button type="button" onclick="fnTrocarCorDeFundo()">Trocar a cor de fundo</button>
+                <button type="button" onclick="fnSaudacao()">Seja bem vindo</button>
+            </div>
+            <nav class="menu">
+                <a href="#">HOME</a>
+                <a href="#">SERVIÇOS</a>
+                <a href="#">CONTATO</a>
+            </nav>
+        </header>
+        <img src="image/banner02.jpg" alt="mulher com caneca de café e tatuagem des flores diversas" class="banner">
+        <div class="servicos">
+            <h3>SERVIÇOS</h3>
+            <div>
+                <img src="image/destaque01.jpg" alt="braço com tatuagem de seta" class="imagem-servicos">
+            </div>
+            <div class="servicos-texto">
+                <p>Bem-vindo ao Traço Eterno, onde a arte encontra a pele para contar histórias únicas e inesquecíveis.
+                    Nosso estúdio nasceu da paixão por transformar ideias em obras de arte personalizadas, respeitando a
+                    individualidade e os desejos de cada cliente. Aqui, cada traço é cuidadosamente planejado para criar
+                    um vínculo eterno entre você e sua expressão artística.</p>
+                <p>No Traço Eterno, acreditamos
+                    que uma tatuagem vai muito além da estética; ela é uma manifestação de personalidade, emoção e
+                    memória.</p>
+                <h4>Serviços oferecidos </h4>
+                <ul>
+                    <li>Tatuagens personalizadas (desenhos exclusivos criados sob medida).</li>
+
+                    <li>Cobertura e restauração de tatuagens antigas.</li>
+
+                    <li>Tatuagens em estilo realista, geométrico, aquarela, minimalista, old school, entre outros.</li>
+
+                    <li>Aplicação de piercings com total segurança e higiene.</li>
+
+                    <li>Consultoria artística para ajudar a planejar seu próximo projeto de tatuagem.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="destaques">
+            <img src="image/destaque02.jpg" alt="braço com tatuagem escrito fear not" class="fotos-destaques">
+            <img src="image/destaque03.jpg" alt="braço com tatuagem de árvores e elementos noturno" class="fotos-destaques">
+            <img src="image/destaque05.jpg" alt="pessoa andando de skate com tronco tatuado" class="fotos-destaques">
+        </div>
+        <div class="contato">
+            <h3>Contato</h3>
+            <form class="form-contato">
+                <p>
+                    <label>Nome:</label>
+                    <input type="text">
+                </p>
+                <p>
+                    <label>E-mail: </label>
+                    <input type="email">
+                </p>
+                <p>
+                    <label>Mensagem:</label>
+                    <textarea></textarea>
+                </p>
+                <p class="linha-botao">
+                    <button>Enviar</button>
+                </p>
+            </form>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
