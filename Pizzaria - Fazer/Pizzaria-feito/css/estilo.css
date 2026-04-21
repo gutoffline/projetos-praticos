@@ -1,0 +1,87 @@
+body{
+	background-image: url('../Img/fundo.jpg');
+}
+
+/*geral*/
+
+
+#geral{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	
+}
+
+.cabecalho{
+	width: 100%;
+	/*height: 80px;*/
+	background-color: #b22d00;
+	/*padding: 20px;*/
+}
+
+.logotipo{
+	margin: 20px;
+}
+
+.cabecalho_telefone{
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin-top: 40px;
+	margin-left: 560px; 
+	color: #ffffff;
+	font-family: verdana;
+}
+/*Menu*/
+
+.menu{
+	background-color: #D9A300;
+}
+
+.menu_item{
+	font-family: arial;
+	color: #000000;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.menu_item:hover{ 
+	background-color: grey
+}
+
+.menu_item_atual{
+	font-family: arial; 
+	background-color: gray; 
+	color: #fffffff;
+	padding: 10px 20px 10px 20px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+}
+	
+.menu_item_atual:hover{
+	background-color: red;
+}
+
+
+/*Rodapé*/
+
+.rodape{
+	background-color: #333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+.rodape_texto{
+	text-align:center;
+	font-size: 11px;
+	font-family: tahoma;
+}
+
+
+	
+

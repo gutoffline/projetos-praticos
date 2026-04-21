@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Ferris Bueller</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/biblioteca.js"></script>
+</head>
+
+<body>
+	<header id="topo">
+		<section id="topo-twitter">
+			<p class="tweet-texto">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.<span class="tweet-data">21 minutos atrás via Twitter</span></p>
+		</section>
+		<section id="topo-titulo">
+			<h1>Ferris Bueller</h1>
+		</section>	
+	</header>
+	<div id="conteudo">
+		<section id="conteudo-descricao">
+			<section class="conteudo-uma-coluna">
+				<h3>Hey Guys</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</section>
+
+			<section class="conteudo-duas-colunas">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				<p>
+				<ul id="icones-sociais">
+					<li class="bt-twitter">
+						<a href="#">Twitter</a>
+					</li>
+					<li class="bt-facebook">
+						<a href="#">Facebook</a>
+					</li>
+					<li class="bt-linkedin">
+						<a href="#">Linkedin</a>
+					</li>
+				</ul>
+			</section>
+
+			<aside id="form">
+				<form action="envia.php" method="get" onsubmit="return ValidarContato();">
+					<input id="nome" name="nome" type="text" class="campo nome" placeholder="Escreva seu nome" >
+					<input id="email" name="email" type="text" class="campo email" placeholder="Email">
+					<textarea id="mensagem" name="mensagem" type="textarea" placeholder="Mensagem"></textarea>
+					<input type="submit" value="Enviar" class="enviar">
+				</form>
+			</aside>
+
+		</section>
+
+		<section id="conteudo-portifolio">
+			<figure>
+				<a href="#" class="link-thumbs">
+					<img src="imagens/thumb-1.png" alt="Projeto 1">
+				</a>
+				<a href="#" class="link-thumbs">
+					<img src="imagens/thumb-2.png" alt="Projeto 2">
+				</a>
+				<a href="#" class="link-thumbs">
+					<img src="imagens/thumb-3.png" alt="Projeto 3">
+				</a>
+				<a href="#" class="link-thumbs">
+					<img src="imagens/thumb-4.png" alt="Projeto 4">
+				</a>
+				<a href="#" class="link-thumbs">
+					<img src="imagens/thumb-5.png" alt="Projeto 5">
+				</a>
+				<a href="#" class="link-thumbs">
+					<img src="imagens/thumb-6.png" alt="Projeto 6">
+				</a>
+			</figure>
+
+			<video controls width="380" height="210" poster="imagens/placeholder.jpg">
+				<source src="video/video-1.mp4" type="video/mp4"> 
+				<object type="application/x-shockwave-flash" width="380" height="268" data="player.swf?file=video/video-1.mp4">
+					<param name="movie" value="player.swf?file=video/video-1.mp4">
+				</object> 
+			</video>
+		</section>
+	</div>
+	<footer id="rodape">
+		<p>
+			Design by Guto Xavier<br/>
+			2014 - Ferris Bueller
+		</p>
+	</footer>
+</body>
+
+</html>
