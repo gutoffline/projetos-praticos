@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-image: url("imagens/foto01.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.conteudo{
+    background-color: rgba(255,255,255,0.5);
+	height: 100vh;
+	text-align: center;
+
+	/*alinhar na vertical*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+
+.titulo{
+	font-size: 58px;
+	padding-bottom: 3px;
+	letter-spacing: 5px;
+	font-family: "Poppins";
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.subtitulo{
+	font-size: 30px;
+	font-family: "Poppins";
+	font-weight: 200;
+}
+
+.linha{
+	border: 1px solid rgb(255, 255, 255);
+	width: 400px;
+}
+
+.texto{
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "Nunito";
+	font-weight: 400;
+	text-align: justify;
+	width: 400px;
+}
+
+.meu-video{
+	width: 100vw;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.botao-comprar{
+	margin-top: 50px;
+	border: 3px double rgb(255, 255, 255);
+	font-size: 22px;
+	text-decoration: none;
+	padding: 15px;
+	width: 200px;
+	color: white;
+	background-color: black;
+	font-family: "Nunito";
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+
+.botao-comprar:hover{
+	background-color: blueviolet;
+	color:yellow;
+}
+
+.formulario{
+	margin-top: 30px;
+	width: 500px;
+}
+
+.rotulo{
+	font-family: "Nunito";
+	font-size: 18px;
+	font-weight: 400;
+	display: block;
+	text-align: left;
+}
+
+.campo{
+	font-size: 18px;
+	font-family: "Nunito";
+	font-weight: 300;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
